@@ -1,11 +1,8 @@
-package br.com.tecladovirtual;
+package tecladovirtual;
 
 import java.util.ArrayList;
-import org.apache.wicket.markup.html.WebPage;
-import org.apache.wicket.markup.html.basic.Label;
-import org.apache.wicket.model.Model;
 
-public class Teclado extends WebPage{
+public class Teclado {
 	private ArrayList<Oitava> oitavas;
 	private static int qntdOitavas;
 	private String timbre;

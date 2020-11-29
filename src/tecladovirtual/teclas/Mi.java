@@ -1,4 +1,4 @@
-package br.com.tecladovirtual;
+package tecladovirtual.teclas;
 
 public class Mi extends Tecla{
 	public Mi(String cifra, String caminho) {

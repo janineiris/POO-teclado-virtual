@@ -1,4 +1,4 @@
-package br.com.tecladovirtual;
+package tecladovirtual.teclas;
 
 public class Sol extends Tecla{
 	public Sol(String cifra, String caminho) {

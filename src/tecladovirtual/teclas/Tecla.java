@@ -1,10 +1,6 @@
-package br.com.tecladovirtual;
+package tecladovirtual.teclas;
 
-import org.apache.wicket.markup.html.WebPage;
-import org.apache.wicket.markup.html.basic.Label;
-import org.apache.wicket.model.Model;
-
-public class Tecla {
+public abstract class Tecla {
 	private String cifra;
 	private String caminhoSom;
 	

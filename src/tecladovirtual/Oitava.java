@@ -1,4 +1,6 @@
-package br.com.tecladovirtual;
+package tecladovirtual;
+
+import tecladovirtual.teclas.*;
 
 public class Oitava {
 	private Tecla[] teclas;
