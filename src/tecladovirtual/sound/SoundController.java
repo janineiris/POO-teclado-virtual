@@ -8,6 +8,7 @@ package tecladovirtual.sound;
 
 import jaco.mp3.player.MP3Player;
 import java.io.File;       
+import tecladovirtual.Teclado;
         
 /**
  *
@@ -22,6 +23,7 @@ public class SoundController implements SoundInterface{
     
     @Override
     public void play(){
+        sound.setVolume(Teclado.getVolume());
         sound.play();
     }
     
@@ -42,11 +44,20 @@ public class SoundController implements SoundInterface{
             volumeAtual -= taxaDiminuicao;
             sound.setVolume(volumeAtual);
             try{
-                Thread.sleep(150);
+                Thread.sleep(250);
             } catch (InterruptedException e) {}
         }
         
-        sound.pause();
+        sound.stop();
         sound.setVolume(volumeOriginal);
+    }
+    
+    @Override
+    public void setVolume(int volume) {
+        if (volume < 0 || volume > 100) {
+            return;
+        }
+        
+        sound.setVolume(volume);
     }
 }

@@ -3,7 +3,14 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/ProjetoPOO/POO-teclado-virtual/src/tecladovirtual/sound/SoundController.java</file>
+            <file>file:/home/iris/NetBeansProjects/TecladoVirtual/src/tecladovirtual/Oitava.java</file>
+            <file>file:/home/iris/NetBeansProjects/TecladoVirtual/src/tecladovirtual/FXMLDocumentController.java</file>
+            <file>file:/home/iris/NetBeansProjects/TecladoVirtual/src/tecladovirtual/Teclado.java</file>
+            <file>file:/home/iris/NetBeansProjects/TecladoVirtual/src/tecladovirtual/FXMLTeclado.fxml</file>
+            <file>file:/home/iris/NetBeansProjects/TecladoVirtual/src/tecladovirtual/FXMLDocument.fxml</file>
+            <file>file:/home/iris/NetBeansProjects/TecladoVirtual/src/tecladovirtual/teclas/Sol.java</file>
+            <file>file:/home/iris/NetBeansProjects/TecladoVirtual/src/tecladovirtual/teclas/Tecla.java</file>
+            <file>file:/home/iris/NetBeansProjects/TecladoVirtual/src/tecladovirtual/teclas/Do.java</file>
         </group>
     </open-files>
 </project-private>

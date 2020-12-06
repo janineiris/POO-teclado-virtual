@@ -9,18 +9,18 @@ public class Oitava {
     public Oitava(int tipo) {
         this.tipo = tipo;
         Tecla[] teclas = new Tecla[12];
-        teclas[0] = new Do(tipo, "C"+tipo);
-        teclas[1] = new Do(tipo, "C"+tipo+"#");
-        teclas[2] = new Re(tipo, "D"+tipo);
-        teclas[3] = new Re(tipo, "D"+tipo+"#");
-        teclas[4] = new Mi(tipo, "E"+tipo);
-        teclas[5] = new Fa(tipo, "F"+tipo);
-        teclas[6] = new Fa(tipo, "F"+tipo+"#");
-        teclas[7] = new Sol(tipo, "G"+tipo);
-        teclas[8] = new Sol(tipo, "G"+tipo+"#");
-        teclas[9] = new La(tipo, "A"+tipo);
-        teclas[10] = new La(tipo, "A"+tipo+"#");
-        teclas[11] = new Si(tipo, "B"+tipo);
+        teclas[0] = new TeclaMaior(tipo, "C" + tipo);
+        teclas[1] = new TeclaMenor(tipo, "C" + tipo);
+        teclas[2] = new TeclaMaior(tipo, "D" + tipo);
+        teclas[3] = new TeclaMenor(tipo, "D" + tipo);
+        teclas[4] = new TeclaMaior(tipo, "E" + tipo);
+        teclas[5] = new TeclaMaior(tipo, "F" + tipo);
+        teclas[6] = new TeclaMenor(tipo, "F" + tipo);
+        teclas[7] = new TeclaMaior(tipo, "G" + tipo);
+        teclas[8] = new TeclaMenor(tipo, "G" + tipo);
+        teclas[9] = new TeclaMaior(tipo, "A" + tipo);
+        teclas[10] = new TeclaMenor(tipo, "A" + tipo);
+        teclas[11] = new TeclaMaior(tipo, "B" + tipo);
         this.teclas = teclas;            
     }
 
