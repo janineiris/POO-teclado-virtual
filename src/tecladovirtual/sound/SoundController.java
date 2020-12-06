@@ -43,9 +43,6 @@ public class SoundController implements SoundInterface{
         for(int i = 0 ; i < 10 && volumeAtual > 0; i++) {
             volumeAtual -= taxaDiminuicao;
             sound.setVolume(volumeAtual);
-            try{
-                Thread.sleep(250);
-            } catch (InterruptedException e) {}
         }
         
         sound.stop();

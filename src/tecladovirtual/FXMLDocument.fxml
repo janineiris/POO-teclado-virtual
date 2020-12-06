@@ -158,7 +158,7 @@
             </ImageView>
          </children>
       </AnchorPane>
-      <AnchorPane fx:id="quatro" layoutX="659.0" layoutY="51.0" prefHeight="150.0" prefWidth="207.0">
+      <AnchorPane fx:id="tres" layoutX="446.0" layoutY="51.0" prefHeight="150.0" prefWidth="207.0" AnchorPane.leftAnchor="445.0">
          <children>
             <ImageView fx:id="C3" fitHeight="150.0" fitWidth="200.0" layoutX="2.0" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" pickOnBounds="true" preserveRatio="true">
                <image>
@@ -222,7 +222,7 @@
             </ImageView>
          </children>
       </AnchorPane>
-      <AnchorPane fx:id="tres" layoutX="445.0" layoutY="51.0" prefHeight="150.0" prefWidth="207.0">
+      <AnchorPane fx:id="quatro" layoutX="659.0" layoutY="51.0" prefHeight="150.0" prefWidth="220.0">
          <children>
             <ImageView fx:id="C4" fitHeight="150.0" fitWidth="200.0" layoutX="2.0" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" pickOnBounds="true" preserveRatio="true">
                <image>
