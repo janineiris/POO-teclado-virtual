@@ -31,4 +31,22 @@ public class SoundController implements SoundInterface{
             sound.stop();
         }
     }
+    
+    @Override
+    public void pause(){
+        int volumeOriginal = sound.getVolume();
+        
+        int taxaDiminuicao = (int) Math.ceil(volumeOriginal/10);
+        int volumeAtual = volumeOriginal;
+        for(int i = 0 ; i < 10 && volumeAtual > 0; i++) {
+            volumeAtual -= taxaDiminuicao;
+            sound.setVolume(volumeAtual);
+            try{
+                Thread.sleep(150);
+            } catch (InterruptedException e) {}
+        }
+        
+        sound.pause();
+        sound.setVolume(volumeOriginal);
+    }
 }

@@ -12,4 +12,5 @@ package tecladovirtual.sound;
 interface SoundInterface {
     public void play();
     public void stop();
+    public void pause();
 }

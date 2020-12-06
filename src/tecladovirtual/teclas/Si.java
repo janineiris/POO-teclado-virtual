@@ -1,7 +1,10 @@
 package tecladovirtual.teclas;
 
 public class Si extends Tecla{
-	public Si(String cifra, String caminho) {
-		super(cifra, caminho);
-	}
+    public Si(int oitava, String cifra) {
+        super(
+            cifra,
+            "src/tecladovirtual/assets/sound/"+ oitava + "/" + cifra + ".mp3"
+        );
+    }
 }

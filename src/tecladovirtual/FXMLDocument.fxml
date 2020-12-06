@@ -32,7 +32,7 @@
          </image></ImageView>
       <AnchorPane layoutX="14.0" layoutY="51.0" prefHeight="150.0" prefWidth="207.0" AnchorPane.leftAnchor="14.0">
          <children>
-            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="2.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="2.0">
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="2.0" onMousePressed="#onMousePressed" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="2.0">
                <image>
                   <Image url="@assets/images/tecla_branca.png" />
                </image>
