@@ -13,4 +13,5 @@ interface SoundInterface {
     public void play();
     public void stop();
     public void pause();
+    public void setVolume(int volume);
 }

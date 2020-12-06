@@ -30,320 +30,320 @@
          <image>
             <Image url="@assets/images/background.jpg" />
          </image></ImageView>
-      <AnchorPane layoutX="14.0" layoutY="51.0" prefHeight="150.0" prefWidth="207.0" AnchorPane.leftAnchor="14.0">
+      <AnchorPane fx:id="um" layoutX="14.0" layoutY="51.0" prefHeight="150.0" prefWidth="207.0" AnchorPane.leftAnchor="14.0">
          <children>
-            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="2.0" onMousePressed="#onMousePressed" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="2.0">
+            <ImageView fx:id="C1" fitHeight="150.0" fitWidth="200.0" layoutX="2.0" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="2.0">
                <image>
                   <Image url="@assets/images/tecla_branca.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="33.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="D1" fitHeight="150.0" fitWidth="200.0" layoutX="33.0" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets/images/tecla_branca.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="97.0" fitWidth="19.0" layoutX="24.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="C1sus" fitHeight="97.0" fitWidth="19.0" layoutX="24.0" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets/images/tecla_preta.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="64.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="E1" fitHeight="150.0" fitWidth="200.0" layoutX="64.0" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets/images/tecla_branca.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="97.0" fitWidth="19.0" layoutX="55.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="D1sus" fitHeight="97.0" fitWidth="19.0" layoutX="55.0" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets/images/tecla_preta.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="95.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="F1" fitHeight="150.0" fitWidth="200.0" layoutX="95.0" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets/images/tecla_branca.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="126.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="G1" fitHeight="150.0" fitWidth="200.0" layoutX="126.0" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets/images/tecla_branca.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="157.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="A1" fitHeight="150.0" fitWidth="200.0" layoutX="157.0" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets/images/tecla_branca.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="188.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="B1" fitHeight="150.0" fitWidth="200.0" layoutX="188.0" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets/images/tecla_branca.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="97.0" fitWidth="19.0" layoutX="117.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="F1sus" fitHeight="97.0" fitWidth="19.0" layoutX="117.0" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets/images/tecla_preta.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="97.0" fitWidth="19.0" layoutX="148.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="G1sus" fitHeight="97.0" fitWidth="19.0" layoutX="148.0" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets/images/tecla_preta.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="97.0" fitWidth="19.0" layoutX="179.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="A1sus" fitHeight="97.0" fitWidth="19.0" layoutX="179.0" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets/images/tecla_preta.png" />
                </image>
             </ImageView>
          </children>
       </AnchorPane>
-      <AnchorPane layoutX="228.0" layoutY="51.0" prefHeight="150.0" prefWidth="207.0">
+      <AnchorPane fx:id="dois" layoutX="228.0" layoutY="51.0" prefHeight="150.0" prefWidth="207.0">
          <children>
-            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="2.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="C2" fitHeight="150.0" fitWidth="200.0" layoutX="2.0" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets/images/tecla_branca.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="33.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="D2" fitHeight="150.0" fitWidth="200.0" layoutX="33.0" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets/images/tecla_branca.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="97.0" fitWidth="19.0" layoutX="24.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="C2sus" fitHeight="97.0" fitWidth="19.0" layoutX="24.0" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets/images/tecla_preta.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="64.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="E2" fitHeight="150.0" fitWidth="200.0" layoutX="64.0" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets/images/tecla_branca.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="97.0" fitWidth="19.0" layoutX="55.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="D2sus" fitHeight="97.0" fitWidth="19.0" layoutX="55.0" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets/images/tecla_preta.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="95.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="F2" fitHeight="150.0" fitWidth="200.0" layoutX="95.0" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets/images/tecla_branca.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="126.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="G2" fitHeight="150.0" fitWidth="200.0" layoutX="126.0" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets/images/tecla_branca.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="157.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="A2" fitHeight="150.0" fitWidth="200.0" layoutX="157.0" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets/images/tecla_branca.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="188.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="B2" fitHeight="150.0" fitWidth="200.0" layoutX="188.0" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets/images/tecla_branca.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="97.0" fitWidth="19.0" layoutX="117.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="F2sus" fitHeight="97.0" fitWidth="19.0" layoutX="117.0" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets/images/tecla_preta.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="97.0" fitWidth="19.0" layoutX="148.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="G2sus" fitHeight="97.0" fitWidth="19.0" layoutX="148.0" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets/images/tecla_preta.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="97.0" fitWidth="19.0" layoutX="179.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="A2sus" fitHeight="97.0" fitWidth="19.0" layoutX="179.0" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets/images/tecla_preta.png" />
                </image>
             </ImageView>
          </children>
       </AnchorPane>
-      <AnchorPane layoutX="659.0" layoutY="51.0" prefHeight="150.0" prefWidth="207.0">
+      <AnchorPane fx:id="quatro" layoutX="659.0" layoutY="51.0" prefHeight="150.0" prefWidth="207.0">
          <children>
-            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="2.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="C3" fitHeight="150.0" fitWidth="200.0" layoutX="2.0" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets/images/tecla_branca.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="33.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="D3" fitHeight="150.0" fitWidth="200.0" layoutX="33.0" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets/images/tecla_branca.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="97.0" fitWidth="19.0" layoutX="24.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="C3sus" fitHeight="97.0" fitWidth="19.0" layoutX="24.0" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets/images/tecla_preta.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="64.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="E3" fitHeight="150.0" fitWidth="200.0" layoutX="64.0" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets/images/tecla_branca.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="97.0" fitWidth="19.0" layoutX="55.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="D3sus" fitHeight="97.0" fitWidth="19.0" layoutX="55.0" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets/images/tecla_preta.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="95.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="F3" fitHeight="150.0" fitWidth="200.0" layoutX="95.0" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets/images/tecla_branca.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="126.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="G3" fitHeight="150.0" fitWidth="200.0" layoutX="126.0" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets/images/tecla_branca.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="157.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="A3" fitHeight="150.0" fitWidth="200.0" layoutX="157.0" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets/images/tecla_branca.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="188.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="B3" fitHeight="150.0" fitWidth="200.0" layoutX="188.0" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets/images/tecla_branca.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="97.0" fitWidth="19.0" layoutX="117.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="F3sus" fitHeight="97.0" fitWidth="19.0" layoutX="117.0" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets/images/tecla_preta.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="97.0" fitWidth="19.0" layoutX="148.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="G3sus" fitHeight="97.0" fitWidth="19.0" layoutX="148.0" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets/images/tecla_preta.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="97.0" fitWidth="19.0" layoutX="179.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="A3sus" fitHeight="97.0" fitWidth="19.0" layoutX="179.0" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets/images/tecla_preta.png" />
                </image>
             </ImageView>
          </children>
       </AnchorPane>
-      <AnchorPane layoutX="445.0" layoutY="51.0" prefHeight="150.0" prefWidth="207.0">
+      <AnchorPane fx:id="tres" layoutX="445.0" layoutY="51.0" prefHeight="150.0" prefWidth="207.0">
          <children>
-            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="2.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="C4" fitHeight="150.0" fitWidth="200.0" layoutX="2.0" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets/images/tecla_branca.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="33.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="D4" fitHeight="150.0" fitWidth="200.0" layoutX="33.0" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets/images/tecla_branca.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="97.0" fitWidth="19.0" layoutX="24.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="C4sus" fitHeight="97.0" fitWidth="19.0" layoutX="24.0" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets/images/tecla_preta.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="64.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="E4" fitHeight="150.0" fitWidth="200.0" layoutX="64.0" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets/images/tecla_branca.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="97.0" fitWidth="19.0" layoutX="55.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="D4sus" fitHeight="97.0" fitWidth="19.0" layoutX="55.0" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets/images/tecla_preta.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="95.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="F4" fitHeight="150.0" fitWidth="200.0" layoutX="95.0" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets/images/tecla_branca.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="126.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="G4" fitHeight="150.0" fitWidth="200.0" layoutX="126.0" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets/images/tecla_branca.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="157.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="A4" fitHeight="150.0" fitWidth="200.0" layoutX="157.0" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets/images/tecla_branca.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="188.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="B4" fitHeight="150.0" fitWidth="200.0" layoutX="188.0" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets/images/tecla_branca.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="97.0" fitWidth="19.0" layoutX="117.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="F4sus" fitHeight="97.0" fitWidth="19.0" layoutX="117.0" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets/images/tecla_preta.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="97.0" fitWidth="19.0" layoutX="148.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="G4sus" fitHeight="97.0" fitWidth="19.0" layoutX="148.0" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets/images/tecla_preta.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="97.0" fitWidth="19.0" layoutX="179.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="A4sus" fitHeight="97.0" fitWidth="19.0" layoutX="179.0" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets/images/tecla_preta.png" />
                </image>
             </ImageView>
          </children>
       </AnchorPane>
-      <AnchorPane layoutX="873.0" layoutY="51.0" prefHeight="150.0" prefWidth="207.0">
+      <AnchorPane fx:id="cinco" layoutX="873.0" layoutY="51.0" prefHeight="150.0" prefWidth="207.0">
          <children>
-            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="2.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="C5" fitHeight="150.0" fitWidth="200.0" layoutX="2.0" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets/images/tecla_branca.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="33.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="D5" fitHeight="150.0" fitWidth="200.0" layoutX="33.0" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets/images/tecla_branca.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="97.0" fitWidth="19.0" layoutX="24.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="C5sus" fitHeight="97.0" fitWidth="19.0" layoutX="24.0" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets/images/tecla_preta.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="64.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="E5" fitHeight="150.0" fitWidth="200.0" layoutX="64.0" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets/images/tecla_branca.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="97.0" fitWidth="19.0" layoutX="55.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="D5sus" fitHeight="97.0" fitWidth="19.0" layoutX="55.0" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets/images/tecla_preta.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="95.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="F5" fitHeight="150.0" fitWidth="200.0" layoutX="95.0" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets/images/tecla_branca.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="126.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="G5" fitHeight="150.0" fitWidth="200.0" layoutX="126.0" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets/images/tecla_branca.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="157.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="A5" fitHeight="150.0" fitWidth="200.0" layoutX="157.0" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets/images/tecla_branca.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="188.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="B5" fitHeight="150.0" fitWidth="200.0" layoutX="188.0" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets/images/tecla_branca.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="97.0" fitWidth="19.0" layoutX="117.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="F5sus" fitHeight="97.0" fitWidth="19.0" layoutX="117.0" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets/images/tecla_preta.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="97.0" fitWidth="19.0" layoutX="148.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="G5sus" fitHeight="97.0" fitWidth="19.0" layoutX="148.0" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets/images/tecla_preta.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="97.0" fitWidth="19.0" layoutX="179.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="A5sus" fitHeight="97.0" fitWidth="19.0" layoutX="179.0" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets/images/tecla_preta.png" />
                </image>
@@ -357,7 +357,7 @@
                   <Font name="Book Antiqua" size="36.0" />
                </font>
             </Label>
-            <Slider layoutX="164.0" layoutY="18.0" value="50.0" />
+            <Slider layoutX="164.0" layoutY="18.0" onMouseClicked="#onSliderValueChange" onMouseDragged="#onSliderValueChange" onMousePressed="#onSliderValueChange" onScroll="#onSliderValueChange" onSwipeLeft="#onSliderValueChange" onSwipeRight="#onSliderValueChange" onTouchMoved="#onSliderValueChange" onTouchPressed="#onSliderValueChange" value="30.0" />
          </children>
       </AnchorPane>
     </children>
