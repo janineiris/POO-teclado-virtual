@@ -31,5 +31,4 @@ public class SoundController implements SoundInterface{
             sound.stop();
         }
     }
-    
 }

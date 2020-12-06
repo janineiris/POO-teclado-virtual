@@ -26,6 +26,10 @@ public class TecladoVirtual extends Application {
         
         stage.setScene(scene);
         stage.show();
+        stage.setMaxHeight(stage.getHeight());
+        stage.setMinHeight(stage.getHeight());
+        stage.setMaxWidth(stage.getWidth());
+        stage.setMinWidth(stage.getWidth());
     }
 
     /**
