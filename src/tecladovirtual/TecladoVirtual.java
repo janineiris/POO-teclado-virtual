@@ -20,7 +20,8 @@ public class TecladoVirtual extends Application {
     
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("FXMLDocument.fxml"));
+        Parent root = loader.load();
         
         Scene scene = new Scene(root);
         
@@ -30,6 +31,8 @@ public class TecladoVirtual extends Application {
         stage.setMinHeight(stage.getHeight());
         stage.setMaxWidth(stage.getWidth());
         stage.setMinWidth(stage.getWidth());
+        
+        loader.<FXMLDocumentController>getController().setTecladoVirtual(this);
     }
 
     /**

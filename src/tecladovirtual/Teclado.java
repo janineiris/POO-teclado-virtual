@@ -15,7 +15,7 @@ public class Teclado {
             
             ArrayList<Oitava> oitavas = new ArrayList<Oitava>();
             for(int i = 1; i <= qntdOitavas; i++) {
-                Oitava oitava = new Oitava(i);
+                Oitava oitava = new Oitava(i, timbreStr);
                 oitavas.add(oitava);
             }
             

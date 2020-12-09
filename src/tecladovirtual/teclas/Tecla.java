@@ -7,6 +7,8 @@ public abstract class Tecla {
 	private String caminhoSom;
         private SoundController som;
 	
+        protected Tecla(){}
+        
 	public Tecla(String cifra, String caminho) {
 		this.cifra = cifra;
 		this.caminhoSom = caminho;

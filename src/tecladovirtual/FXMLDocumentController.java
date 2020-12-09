@@ -20,7 +20,9 @@ import javafx.scene.input.MouseEvent;
  * @author iris
  */
 public class FXMLDocumentController implements Initializable {
-    private final Teclado teclado = new Teclado(5);
+    private final Teclado tecladoOriginal = new Teclado(5);
+    private final Teclado tecladoBichos = new Teclado(5, "animais da fazenda");
+    private TecladoVirtual tecladoVirtual;
     
     @Override
     public void initialize(URL url, ResourceBundle rb) {
@@ -42,8 +44,7 @@ public class FXMLDocumentController implements Initializable {
                     : idStringOitava.equals("quatro")
                         ? 4
                         : 5;
-        System.out.println(idTecla);
-        this.teclado.emitirSom(idOitava, idTecla);
+        this.tecladoOriginal.emitirSom(idOitava, idTecla);
     }
     
     @FXML
@@ -62,9 +63,8 @@ public class FXMLDocumentController implements Initializable {
                     : idStringOitava.equals("quatro")
                         ? 4
                         : 5;
-        
 
-        this.teclado.pararSom(idOitava, idTecla);
+        this.tecladoOriginal.pararSom(idOitava, idTecla);
     }
     
     @FXML
@@ -74,4 +74,7 @@ public class FXMLDocumentController implements Initializable {
         Teclado.setVolume(novoVolume);
     }
     
+    public void setTecladoVirtual(TecladoVirtual teclado) {
+        this.tecladoVirtual = teclado;
+    }    
 }
