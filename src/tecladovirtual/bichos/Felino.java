@@ -17,4 +17,10 @@ public class Felino extends Animal {
         super(nome, descricao, caminhoSom);
         this.domestico = domestico;
     }
+    
+    public boolean getDomestico() { return this.domestico; }
+    public boolean getPredador() { return this.predador; }
+    
+    public void setDomestico(boolean domestico) { this.domestico = domestico; }
+    public void setPredador(boolean predador) { this.predador = predador; }
 }

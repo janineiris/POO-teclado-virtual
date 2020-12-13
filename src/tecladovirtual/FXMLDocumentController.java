@@ -6,6 +6,7 @@
 
 package tecladovirtual;
 
+import tecladovirtual.teclados.*;
 import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.event.Event;
@@ -15,6 +16,7 @@ import javafx.scene.control.Slider;
 import javafx.scene.control.ToggleButton;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
+import javafx.stage.Stage;
 
 
 /**
@@ -22,8 +24,8 @@ import javafx.scene.input.MouseEvent;
  * @author iris
  */
 public class FXMLDocumentController implements Initializable {
-    private final Teclado tecladoOriginal = new Teclado(5);
-    private final Teclado tecladoBichos = new Teclado(5, "animais da fazenda");
+    private final Teclado tecladoOriginal = new TecladoClassico(5);
+    private final Teclado tecladoBichos = new TecladoAnimal(5);
     private Teclado tecladoAtual = tecladoOriginal;
     
     private TecladoVirtual tecladoVirtual;
@@ -49,6 +51,10 @@ public class FXMLDocumentController implements Initializable {
                         ? 4
                         : 5;
         this.tecladoAtual.emitirSom(idOitava, idTecla);
+        
+        if(this.tecladoAtual instanceof TecladoAnimal){
+            
+        }
     }
     
     @FXML
@@ -74,12 +80,17 @@ public class FXMLDocumentController implements Initializable {
     @FXML
     public void onBtnTimbreAction(Event event){
         ToggleButton btn = (ToggleButton) event.getSource();
+        Stage stage = this.tecladoVirtual.getStage();
         if(btn.getText().equals("Animais")){
             btn.setText("Clássico");
             this.tecladoAtual = this.tecladoOriginal;
+            stage.setMaxWidth((double) 1106.0);
+            stage.setMinWidth((double) 1106.0);
         }else{
             btn.setText("Animais");
             this.tecladoAtual = this.tecladoBichos;
+            stage.setMaxWidth((double) 1280.0);
+            stage.setMinWidth((double) 1280.0);
         }
     }
     

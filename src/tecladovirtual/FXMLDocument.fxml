@@ -9,7 +9,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="201.0" prefWidth="1106.0" style="-fx-background-image: url(&quot;src/tecladovirtual/assets/images/background.png&quot;);" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tecladovirtual.FXMLDocumentController">
+<AnchorPane id="AnchorPane" prefHeight="201.0" prefWidth="1280.0" style="-fx-background-image: url(&quot;src/tecladovirtual/assets/images/background.png&quot;);" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tecladovirtual.FXMLDocumentController">
     <children>
       <ImageView fitHeight="221.0" fitWidth="321.0" layoutX="791.0" pickOnBounds="true" preserveRatio="true">
          <image>
@@ -30,6 +30,11 @@
          <image>
             <Image url="@assets/images/background.jpg" />
          </image></ImageView>
+      <ImageView fitHeight="221.0" fitWidth="321.0" layoutX="963.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/images/background.jpg" />
+         </image>
+      </ImageView>
       <AnchorPane fx:id="um" layoutX="14.0" layoutY="51.0" prefHeight="150.0" prefWidth="207.0" AnchorPane.leftAnchor="14.0">
          <children>
             <ImageView fx:id="C1" fitHeight="150.0" fitWidth="200.0" layoutX="2.0" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="2.0">
