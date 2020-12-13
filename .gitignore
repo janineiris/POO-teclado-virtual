@@ -1,4 +1,5 @@
 /target/
 /build/
 /dist/
+/nbproject/
 nbproject/private/private.xml 

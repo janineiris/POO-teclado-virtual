@@ -14,5 +14,4 @@ public class TeclaMaior extends Tecla{
     public TeclaMaior(int oitava, String cifra) {
         super(cifra, "src/tecladovirtual/assets/sound/"+ oitava + "/" + cifra + ".mp3");
     }
-    
 }

@@ -34,14 +34,14 @@ public class TecladoVirtual extends Application {
 //        stage.setMaxWidth(stage.getWidth());
 //        stage.setMinWidth(stage.getWidth());
 
-        stage.setMaxWidth((double) 1106.0);
-        stage.setMinWidth((double) 1106.0);
+        stage.setMaxWidth((double) 1126.0);
+        stage.setMinWidth((double) 1126.0);
         
         this.stage = stage;
         
         loader.<FXMLDocumentController>getController().setTecladoVirtual(this);
     }
-    
+
     public Stage getStage() {
         return this.stage;
     }

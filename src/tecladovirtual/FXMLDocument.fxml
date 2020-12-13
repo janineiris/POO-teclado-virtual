@@ -366,5 +366,11 @@
          </children>
       </AnchorPane>
       <ToggleButton fx:id="btnTimbre" layoutX="42.0" layoutY="12.0" mnemonicParsing="false" onAction="#onBtnTimbreAction" prefHeight="25.0" prefWidth="117.0" text="Clássico" />
+      <Label layoutX="1134.0" layoutY="10.0" prefHeight="55.0" prefWidth="103.0" text="Informações dos Animais" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="Broadway" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblAnimal" layoutX="1110.0" layoutY="75.0" prefHeight="115.0" prefWidth="151.0" />
     </children>
 </AnchorPane>

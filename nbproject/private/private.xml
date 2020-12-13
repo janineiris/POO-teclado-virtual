@@ -3,18 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/home/iris/NetBeansProjects/TecladoVirtual/src/tecladovirtual/Oitava.java</file>
-            <file>file:/home/iris/NetBeansProjects/TecladoVirtual/src/tecladovirtual/FXMLDocumentController.java</file>
-            <file>file:/home/iris/NetBeansProjects/TecladoVirtual/src/tecladovirtual/bichos/Animal.java</file>
-            <file>file:/home/iris/NetBeansProjects/TecladoVirtual/src/tecladovirtual/teclas/TeclaMenor.java</file>
-            <file>file:/home/iris/NetBeansProjects/TecladoVirtual/src/tecladovirtual/Teclado.java</file>
-            <file>file:/home/iris/NetBeansProjects/TecladoVirtual/src/tecladovirtual/bichos/Bovideo.java</file>
-            <file>file:/home/iris/NetBeansProjects/TecladoVirtual/src/tecladovirtual/bichos/Ave.java</file>
-            <file>file:/home/iris/NetBeansProjects/TecladoVirtual/src/tecladovirtual/teclas/Tecla.java</file>
-            <file>file:/home/iris/NetBeansProjects/TecladoVirtual/src/tecladovirtual/TecladoVirtual.java</file>
-            <file>file:/home/iris/NetBeansProjects/TecladoVirtual/src/tecladovirtual/teclas/TeclaMaior.java</file>
-            <file>file:/home/iris/NetBeansProjects/TecladoVirtual/src/tecladovirtual/bichos/Felino.java</file>
-            <file>file:/home/iris/NetBeansProjects/TecladoVirtual/src/tecladovirtual/bichos/Primata.java</file>
+            <file>file:/D:/ProjetoPOO/POO-teclado-virtual/src/tecladovirtual/sound/SoundController.java</file>
+            <file>file:/D:/ProjetoPOO/POO-teclado-virtual/src/tecladovirtual/teclas/TeclaMenor.java</file>
+            <file>file:/D:/ProjetoPOO/POO-teclado-virtual/src/tecladovirtual/Oitava.java</file>
+            <file>file:/D:/ProjetoPOO/POO-teclado-virtual/src/tecladovirtual/FXMLDocumentController.java</file>
+            <file>file:/D:/ProjetoPOO/POO-teclado-virtual/src/tecladovirtual/sound/SoundInterface.java</file>
         </group>
     </open-files>
 </project-private>

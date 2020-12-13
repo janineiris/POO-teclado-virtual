@@ -12,6 +12,7 @@ import java.util.ResourceBundle;
 import javafx.event.Event;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Label;
 import javafx.scene.control.Slider;
 import javafx.scene.control.ToggleButton;
 import javafx.scene.image.ImageView;
@@ -29,6 +30,9 @@ public class FXMLDocumentController implements Initializable {
     private Teclado tecladoAtual = tecladoOriginal;
     
     private TecladoVirtual tecladoVirtual;
+    
+    @FXML
+    private Label lblAnimal;
     
     @Override
     public void initialize(URL url, ResourceBundle rb) {
@@ -53,7 +57,7 @@ public class FXMLDocumentController implements Initializable {
         this.tecladoAtual.emitirSom(idOitava, idTecla);
         
         if(this.tecladoAtual instanceof TecladoAnimal){
-            
+            this.lblAnimal.setText("ovo Maltine");
         }
     }
     
@@ -84,8 +88,9 @@ public class FXMLDocumentController implements Initializable {
         if(btn.getText().equals("Animais")){
             btn.setText("Clássico");
             this.tecladoAtual = this.tecladoOriginal;
-            stage.setMaxWidth((double) 1106.0);
-            stage.setMinWidth((double) 1106.0);
+            stage.setMaxWidth((double) 1126.0);
+            stage.setMinWidth((double) 1126.0);
+            lblAnimal.setText("");
         }else{
             btn.setText("Animais");
             this.tecladoAtual = this.tecladoBichos;
