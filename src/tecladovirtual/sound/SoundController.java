@@ -8,7 +8,7 @@ package tecladovirtual.sound;
 
 import jaco.mp3.player.MP3Player;
 import java.io.File;       
-import tecladovirtual.Teclado;
+import tecladovirtual.teclados.Teclado;
         
 /**
  *

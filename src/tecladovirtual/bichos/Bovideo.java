@@ -16,4 +16,7 @@ public class Bovideo extends Animal {
         super(nome, descricao, caminhoSom);
         this.ruminante = ruminante;
     }
+    
+    public boolean getRuminante() { return this.ruminante; }
+    public void setRuminante(boolean ruminante) { this.ruminante = ruminante; }
 }

@@ -18,6 +18,8 @@ import javafx.stage.Stage;
  */
 public class TecladoVirtual extends Application {
     
+    private Stage stage;
+    
     @Override
     public void start(Stage stage) throws Exception {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("FXMLDocument.fxml"));
@@ -29,10 +31,19 @@ public class TecladoVirtual extends Application {
         stage.show();
         stage.setMaxHeight(stage.getHeight());
         stage.setMinHeight(stage.getHeight());
-        stage.setMaxWidth(stage.getWidth());
-        stage.setMinWidth(stage.getWidth());
+//        stage.setMaxWidth(stage.getWidth());
+//        stage.setMinWidth(stage.getWidth());
+
+        stage.setMaxWidth((double) 1106.0);
+        stage.setMinWidth((double) 1106.0);
+        
+        this.stage = stage;
         
         loader.<FXMLDocumentController>getController().setTecladoVirtual(this);
+    }
+    
+    public Stage getStage() {
+        return this.stage;
     }
 
     /**

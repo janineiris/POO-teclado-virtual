@@ -1,9 +1,10 @@
-package tecladovirtual;
+package tecladovirtual.teclados;
 
 import java.util.ArrayList;
+import tecladovirtual.Oitava;
 import tecladovirtual.teclas.*;
 
-public class Teclado {
+public abstract class Teclado {
 	private ArrayList<Oitava> oitavas;
 	private static int qntdOitavas;
 	private static String timbre;

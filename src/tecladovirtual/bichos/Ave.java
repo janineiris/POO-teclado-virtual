@@ -24,4 +24,10 @@ public class Ave extends Animal {
         this.voa = true;
         this.canta = true;
     }
+    
+    public boolean getVoa() { return this.voa; }
+    public boolean getCanta() { return this.canta; }
+    
+    public void setVoa(boolean voa) { this.voa = voa; }
+    public void setCanta(boolean canta) { this.canta = canta; }
 }

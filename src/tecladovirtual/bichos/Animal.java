@@ -19,4 +19,12 @@ public class Animal {
         this.descricao = descricao;
         this.caminhoSom = caminhoSom;
     }
+    
+    public String getNome() { return this.nome; }
+    public String getDescricao() { return this.descricao; }
+    public String getCaminho() { return this.caminhoSom; }
+    
+    public void setNome(String nome) { this.nome = nome; }
+    public void setDescricao(String descricao) { this.descricao = descricao; }
+    public void setCaminho(String caminho) { this.caminhoSom = caminho; }
 }
