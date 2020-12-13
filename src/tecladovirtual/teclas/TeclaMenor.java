@@ -54,6 +54,7 @@ public class TeclaMenor extends Tecla{
                 case 2:
                     if(cifra.equals("A" + oitava)) {
                         caminho = "src/tecladovirtual/assets/sound/"+ oitava + "/A2#_cavalo.mp3";
+                        System.out.println(caminho);
                         this.animal = new Bovideo("Cavalo", "Ele trota", caminho, true);
                     } else if(cifra.equals("C" + oitava)){
                         caminho = "src/tecladovirtual/assets/sound/"+ oitava + "/C2#_cabra.mp3";
@@ -74,7 +75,7 @@ public class TeclaMenor extends Tecla{
                         caminho = "src/tecladovirtual/assets/sound/"+ oitava + "/A3#_babuino.mp3";                        
                         this.animal = new Primata("Babuíno", "", caminho);
                     } else if(cifra.equals("C" + oitava)){
-                        caminho = "src/tecladovirtual/assets/sound/"+ oitava + "/C3#macaco_prego.mp3";                        
+                        caminho = "src/tecladovirtual/assets/sound/"+ oitava + "/C3#_macaco_prego.mp3";                        
                         this.animal = new Primata("Macaco Prego", "", caminho);
                     } else if(cifra.equals("D" + oitava)){
                         caminho = "src/tecladovirtual/assets/sound/"+ oitava + "/D3#_gorila.mp3";                        
@@ -83,7 +84,6 @@ public class TeclaMenor extends Tecla{
                         caminho = "src/tecladovirtual/assets/sound/"+ oitava + "/F3#_macaco.mp3";                        
                         this.animal = new Primata("Macaco", "", caminho);
                     } else{
-                        
                         caminho = "src/tecladovirtual/assets/sound/"+ oitava + "/G3#_sagui.mp3"; 
                         this.animal = new Primata("Sagui", "É pequeno, anda em grupos e rouba comida.", caminho);
                     }
@@ -120,11 +120,13 @@ public class TeclaMenor extends Tecla{
                         caminho = "src/tecladovirtual/assets/sound/"+ oitava + "/F5#_sapo.mp3";
                         this.animal = new Animal("Sapo", "Ele pula", caminho);
                     } else{
-                        caminho = "src/tecladovirtual/assets/sound/"+ oitava + "/A5#cascavel.mp3";
+                        caminho = "src/tecladovirtual/assets/sound/"+ oitava + "/G5#_cascavel.mp3";
                         this.animal = new Animal("Cascavel", "", caminho);
                     }
                     break;
-            }        
+            }
+            this.setCaminhoSom(caminho);
+            this.setSom(new SoundController(caminho));
         }
     }
     

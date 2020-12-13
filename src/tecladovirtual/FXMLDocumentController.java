@@ -8,9 +8,11 @@ package tecladovirtual;
 
 import java.net.URL;
 import java.util.ResourceBundle;
+import javafx.event.Event;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Slider;
+import javafx.scene.control.ToggleButton;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
 
@@ -22,6 +24,8 @@ import javafx.scene.input.MouseEvent;
 public class FXMLDocumentController implements Initializable {
     private final Teclado tecladoOriginal = new Teclado(5);
     private final Teclado tecladoBichos = new Teclado(5, "animais da fazenda");
+    private Teclado tecladoAtual = tecladoOriginal;
+    
     private TecladoVirtual tecladoVirtual;
     
     @Override
@@ -44,7 +48,7 @@ public class FXMLDocumentController implements Initializable {
                     : idStringOitava.equals("quatro")
                         ? 4
                         : 5;
-        this.tecladoOriginal.emitirSom(idOitava, idTecla);
+        this.tecladoAtual.emitirSom(idOitava, idTecla);
     }
     
     @FXML
@@ -64,7 +68,19 @@ public class FXMLDocumentController implements Initializable {
                         ? 4
                         : 5;
 
-        this.tecladoOriginal.pararSom(idOitava, idTecla);
+        this.tecladoAtual.pararSom(idOitava, idTecla);
+    }
+    
+    @FXML
+    public void onBtnTimbreAction(Event event){
+        ToggleButton btn = (ToggleButton) event.getSource();
+        if(btn.getText().equals("Animais")){
+            btn.setText("Clássico");
+            this.tecladoAtual = this.tecladoOriginal;
+        }else{
+            btn.setText("Animais");
+            this.tecladoAtual = this.tecladoBichos;
+        }
     }
     
     @FXML
