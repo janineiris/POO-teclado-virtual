@@ -371,6 +371,6 @@
             <Font name="Broadway" size="14.0" />
          </font>
       </Label>
-      <Label fx:id="lblAnimal" layoutX="1110.0" layoutY="75.0" prefHeight="115.0" prefWidth="151.0" />
+      <Label fx:id="lblAnimal" layoutX="1110.0" layoutY="75.0" prefHeight="115.0" prefWidth="151.0" textFill="WHITE" textOverrun="CLIP" wrapText="true" />
     </children>
 </AnchorPane>

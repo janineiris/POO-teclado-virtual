@@ -57,7 +57,8 @@ public class FXMLDocumentController implements Initializable {
         this.tecladoAtual.emitirSom(idOitava, idTecla);
         
         if(this.tecladoAtual instanceof TecladoAnimal){
-            this.lblAnimal.setText("ovo Maltine");
+            String text = ((TecladoAnimal) this.tecladoAtual).getDescricaoAnimal(idOitava, idTecla);
+            this.lblAnimal.setText(text);
         }
     }
     
@@ -90,7 +91,7 @@ public class FXMLDocumentController implements Initializable {
             this.tecladoAtual = this.tecladoOriginal;
             stage.setMaxWidth((double) 1126.0);
             stage.setMinWidth((double) 1126.0);
-            lblAnimal.setText("");
+            this.lblAnimal.setText("");
         }else{
             btn.setText("Animais");
             this.tecladoAtual = this.tecladoBichos;
