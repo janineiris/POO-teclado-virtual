@@ -5,6 +5,10 @@
  */
 package tecladovirtual.teclas;
 
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import tecladovirtual.sound.SoundController;
+
 /**
  *
  * @author iris
@@ -12,6 +16,10 @@ package tecladovirtual.teclas;
 public class TeclaMaior extends Tecla{
     
     public TeclaMaior(int oitava, String cifra) {
-        super(cifra, "src/tecladovirtual/assets/sound/"+ oitava + "/" + cifra + ".mp3");
+        super.setCifra(cifra);
+        super.setCaminhoSom("src/tecladovirtual/assets/sound/"+ oitava + "/" + cifra + ".mp3");
+        super.setSom(
+            new SoundController(super.getCaminhoSom())
+        );
     }
 }
